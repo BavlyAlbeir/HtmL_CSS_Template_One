@@ -1610,7 +1610,7 @@ footer .name .icons {
   gap: 10px;
   margin-bottom: 20px;
 }
-footer .name .icons i {
+footer .name .icons a {
   font-size: 22px;
   width: 50px;
   height: 50px;
@@ -1621,15 +1621,15 @@ footer .name .icons i {
   color: #b9b9b9;
   transition: var(--main-transition);
 }
-footer .name .icons i:hover:first-child {
+footer .name .icons a:hover:first-child {
   background-color: #3b5998;
   color: white;
 }
-footer .name .icons i:hover:nth-child(2) {
+footer .name .icons a:hover:nth-child(2) {
   color: white;
   background-color: rgb(29, 161, 242);
 }
-footer .name .icons i:hover:last-child {
+footer .name .icons a:hover:last-child {
   color: white;
   background-color: red;
 }
